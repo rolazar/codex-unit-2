@@ -10,6 +10,25 @@
     <form>
       <!-- TODO: Add required attributes and minlength/maxlength where appropriate -->
       <!-- TODO: If using a range input, include min and max -->
+      <label> Username Here </label>
+      <input
+        id="username"
+        name="username"
+        type="text"
+        required
+        minlength="2"
+        maxlength="12"
+      />
+      <label> Rating Here</label>
+      <input
+        id="rating"
+        name="rating"
+        type="number"
+        required
+        min="0"
+        max="100"
+      />
+      <button type="submit">SUBMIT TO ME</button>
     </form>
   </body>
 </html>
