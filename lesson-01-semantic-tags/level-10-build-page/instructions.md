@@ -30,7 +30,7 @@ Create a short, accessible page using semantic elements learned across earlier l
       <h1>Page title</h1>
       <nav>...links...</nav>
     </header>
-    <main>
+    <main>c
       <section>
         <h2>Section</h2>
         <p>Content...</p>
